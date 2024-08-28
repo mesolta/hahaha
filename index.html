@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homem de Ferro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #c8102e;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery, .videos {
+            margin-bottom: 20px;
+        }
+        .gallery img, .videos iframe {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .gallery img {
+            border-radius: 8px;
+        }
+        .videos iframe {
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Homem de Ferro</h1>
+    </header>
+    <div class="container">
+        <section class="gallery">
+            <h2>Galeria de Imagens</h2>
+            <img src="https://example.com/imagem1.jpg" alt="Homem de Ferro 1">
+            <img src="https://example.com/imagem2.jpg" alt="Homem de Ferro 2">
+            <img src="https://example.com/imagem3.jpg" alt="Homem de Ferro 3">
+        </section>
+
+        <section class="videos">
+            <h2>Vídeos</h2>
+            <iframe src="https://www.youtube.com/embed/videoid1" title="Homem de Ferro - Trailer 1" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/videoid2" title="Homem de Ferro - Trailer 2" allowfullscreen></iframe>
+        </section>
+    </div>
+</body>
+</html>
